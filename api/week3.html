@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Week3</title>
+<script src="js/scripts.js"></script>
+<link href="estils.css" rel="stylesheet" type="text/css" />
+</head>
+<body onload="loadApiUrl('https://api.rawg.io/api/games?key=7ea9457a112040cc9e36b4e1ef3c6d7e', false)">
+	<div class="container">
+		<header>Header Exercise 2</header>
+
+		<div class="content">
+			<input type="text" placeholder="Search Game..." oninput="searchGame();" id="search-input">
+			<div id="root" class="cards-list">
+                <!-- Aquí se cargarán las tarjetas de videojuegos -->
+            </div>
+
+            <div id="pagination" class="pagination">
+                <!-- Botones de paginación -->
+            </div>
+
+            <div class="details">
+                <div id="details" class="details-main">
+                    <!-- Detalles del videojuego seleccionado -->
+                    
+                </div>
+                <div id="details-side" class="details-side">
+                    
+                </div>
+            </div>
+
+            <div id="trailers-images" class="images-trailers">
+                <!-- Imágenes y trailers de videojuegos -->
+                
+            </div>
+		</div>
+			
+		<footer>Footer Exercise 2</footer>
+	</div>
+	
+</body>
+</html>
