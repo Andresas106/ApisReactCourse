@@ -31,20 +31,23 @@ body {
 .map-data{
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 }
 
 #list div {
 	position: relative;
 	width: 100%;
-	height: 50px;
-	padding: 1px;
 	border: 2px solid lightgray;
-	margin: 2%;
+	margin: 1%;
 	text-align: center;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #list div p {
-	z-index: 0;
+	margin: 0;
 }
 
 .full-width-button {
@@ -63,5 +66,9 @@ body {
 .full-width-button:hover {
 	background-color: lightgray;
 	opacity: 25%;
+}
+
+#map {
+	margin: 0.25%;
 }
 
