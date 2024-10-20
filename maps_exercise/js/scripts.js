@@ -162,13 +162,7 @@ class myMap{
             var pschedule = document.createElement('p');
             var ptextschedule = document.createTextNode('Schedule: ' + parsedData.benzinera.horari);
             pschedule.appendChild(ptextschedule);
-            details.appendChild(pschedule);
-
-            
-            
-            
-
-            
+            details.appendChild(pschedule); 
         })
         .catch(err => {
             console.error('Fetch error: ', err);
